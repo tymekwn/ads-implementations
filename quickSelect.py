@@ -38,6 +38,6 @@ def swap(array, i, j):
 array = [3, 2, 1, 7, 5, 6, 4]
 left = 0
 right = len(array) - 1
-target_index = 1  # 0th Largest Value
+target_index = 1 # Second Smallest Value
 
 assert QuickSelect(array, left, right, target_index) == 2
